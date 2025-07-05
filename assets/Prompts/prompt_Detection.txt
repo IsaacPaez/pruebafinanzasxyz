@@ -1,0 +1,62 @@
+MENU_OPCIONES
+Este flujo debe activarse cuando el usuario quiera explorar sus opciones, abrir un menú, o recibir archivos multimedia. Detecta intenciones relacionadas con la solicitud de opciones o acciones disponibles.
+
+Ejemplos de intenciones:
+- "Envíame un audio"
+- "Abrir menú"
+- "¿Qué opciones tengo?"
+- "¿Qué puedes hacer?"
+- "Muéstrame el menú"
+- "Quiero ver las opciones"
+- "Envíame una imagen"
+- "Quiero recibir archivos"
+
+Criterio:
+El usuario está interesado en conocer o interactuar con las funciones del sistema, o bien solicita archivos multimedia.
+
+---
+
+FAQ
+Este flujo se activa cuando el usuario tiene una pregunta general o una duda que requiere una respuesta generada por la inteligencia artificial (ChatGPT). Detecta intenciones de consulta de información o preguntas abiertas.
+
+Ejemplos de intenciones:
+- "¿Cuál es la distancia a la luna?"
+- "¿Cuánto es 2+2?"
+- "¿Cómo se dice 'hola' en francés?"
+- "¿Qué día es hoy?"
+- "¿Cuánto tarda en llegar la luz del sol a la Tierra?"
+- "¿Quién inventó el teléfono?"
+- "Dame información sobre la gravedad"
+
+Criterio:
+El usuario busca una respuesta específica a una pregunta factual o de conocimiento general, o una respuesta generada por la IA.
+
+---
+
+REGISTRAR_TRANSACCION
+Este flujo debe activarse cuando el usuario quiera registrar una transacción financiera. Detecta intenciones relacionadas con capturar detalles de transacciones.
+
+Ejemplos de intenciones:
+- "Quiero registrar una transacción"
+- "Registrar un gasto"
+- "Agregar un ingreso"
+- "¿Cómo registro un pago?"
+- "Registrar transacción"
+- "Quiero guardar una compra"
+- "Registrar un gasto"
+- "Registro"
+- "Registrar"
+- "Reg"
+
+Criterio:
+El usuario desea guardar información sobre una transacción, como método de pago, valor, fecha, razón o lugar.
+
+---
+
+SALUDO
+Este flujo debe activarse cuando el usuario salude Detecta intenciones relacionadas con saludar
+
+Ejemplos de intenciones:
+- fridoom
+- Hola
+- Hola fridoom

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm run build",
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "@vercel/node@18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/webhook",
+      "dest": "/api/webhook"
+    }
+  ]
+}
