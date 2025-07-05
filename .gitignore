@@ -8,3 +8,7 @@ node_modules
 
 *.log
 *qr.png
+
+# Google Cloud Service Account credentials
+src/config/*.json
+!src/config/example.json
