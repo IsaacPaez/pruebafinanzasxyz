@@ -3,8 +3,8 @@
   "installCommand": "pnpm install",
   "buildCommand": "pnpm run build",
   "functions": {
-    "api/**/*.ts": {
-      "runtime": "nodejs18.x"
+    "api/webhook.ts": {
+      "runtime": "@vercel/node"
     }
   },
   "routes": [
